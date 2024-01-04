@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+:root{
+    --fs-color:#0B1121;
+    --bg-color: #0F0826;
+    --heading-color:#E2E8F0;
+    --peragraph-color:#CBCBCB;
+    --button-color:#6E1FEA;
+    --box-color:#172131;
+    --span-color:#FF8731;
+    --nav-color:#0B1222;
+}
+
+
+body{
+    scroll-behavior: smooth;
+    scroll-snap-align: 20px;
+    background-color: #fffefe88;
+}
+
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 1px 0px 5px 1px;
+    position: sticky;
+    z-index: 999;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+   color: orange;
+    
+}
+.nav-item a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: .9px;
+    color: rgb(0, 0, 0);
+}
+
+.icon-box{
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 50px;
+   
+    
+}
+.shopping{
+   margin-right: 30px;
+  
+}
+.user{
+    color: #0055ff;
+    background-color: #bcbabe5a;
+    padding: 0PX 10PX;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.button{
+    margin-left: 50px;
+   
+    
+}
+.btn-btn{
+    background-color: #FF8731;
+    padding: 8px 20px;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* navbar part ending */
+
+/* catoriges section start */
+
+.prodact-title h2{
+
+    font-size: 25px;
+    color: #020100;
+    font-weight: 500;
+    letter-spacing: .8px;
+  
+
+}
+
+
+
+.card-body i{
+    font-size: 50px;
+    color: #FF8731;
+}
+.card:hover{
+  box-shadow: 2px 2px 2px 2px;
+ 
+}
+
+.fa-heart{
+    font-size: 20px;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.fa-cart-shopping{
+    font-size: 20px;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+
+
+/* prodact icon  */
+.main-box{
+    width: 300px;
+    height: 450px;
+    background-color: #ebeef486;
+    border-radius: 10px;
+    border: 1px solid wheat;
+}
+.main-box:hover{
+    box-shadow: 1px 1px 1px 1px;
+}
+.iconn{
+    color: #FF8731;
+    font-size: 16px;
+}
+.btn-box{
+    font-size: 20px;
+    text-decoration: none;
+    border: #FF8731 1px solid;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+
+}
+.btn-box a{
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.right i{
+    font-size: 25px;
+    margin-left: 50px;
+    color: brown;
+}
+
+.buy a{
+    color: #000000;
+}
+.buy i{
+    color: #0008ff;
+}
+
